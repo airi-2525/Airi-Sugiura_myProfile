@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio 💫 - Trivia</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>My Portfolio 💫</h1>
+
+    <p>Dream. Create. Inspire.</p>
+
+</header>
+
+<nav>
+
+    <ul>
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="portfolio.html">Portfolio</a></li>
+
+        <li><a href="trivia.html" class="active">Trivia</a></li>
+
+    </ul>
+
+</nav>
+
+<div class="layout">
+
+    <!-- Left Sidebar -->
+
+    <aside class="left-sidebar">
+
+        <h2>Useful Links</h2>
+
+        <ul>
+
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+
+            <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+
+            <li><a href="https://fonts.google.com" target="_blank">Google Fonts</a></li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <h2>✨ Lucky Color Generator ✨</h2>
+
+        <p>
+
+            Enter your favorite number from
+
+            <strong>1 to 10</strong>
+
+            and discover your lucky color!
+
+        </p>
+
+        <div class="quiz">
+
+            <label for="number">
+
+                Favorite Number
+
+            </label>
+
+            <input
+                type="number"
+                id="number"
+                min="1"
+                max="10"
+                placeholder="Enter a number">
+
+            <button onclick="showLuckyColor()">
+
+                Show My Lucky Color
+
+            </button>
+
+            <div id="result"></div>
+
+        </div>
+
+    </main>
+
+    <!-- Right Sidebar -->
+
+    <aside class="right-sidebar">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <label for="name">Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your name"
+                required>
+
+            <label for="email">Email</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="example@email.com"
+                required>
+
+            <label for="message">Message</label>
+
+            <textarea
+                id="message"
+                rows="6"
+                placeholder="Write your message"
+                required></textarea>
+
+            <button type="submit">
+
+                Send 💙
+
+            </button>
+
+        </form>
+
+    </aside>
+
+</div>
+
+<footer>
+
+    <p>© 2026 Airi Sugiura | Made with 🤍 and lots of creativity.</p>
+
+    <p>
+
+        <a href="https://github.com/" target="_blank">
+
+            GitHub
+
+        </a>
+
+    </p>
+
+</footer>
+
+</body>
+
+</html>
